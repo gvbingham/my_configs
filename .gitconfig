@@ -1,0 +1,16 @@
+[user]
+	name = gbingham
+	email = gbingham@bluehost.com
+[core]
+	excludesfile = /Users/gbingham/.gitignore
+	editor = /usr/bin/vim
+[color]
+        ui = true
+[format]
+	pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[push]
+	default = simple
